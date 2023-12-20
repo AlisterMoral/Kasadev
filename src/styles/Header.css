@@ -1,0 +1,36 @@
+.kasa-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-left: 350px;
+    margin-top: 45px;
+    
+}
+
+.nav-bar {
+    display: flex;
+    gap: 57px;  
+    margin-right: 350px;
+    cursor: pointer;
+}
+
+.acceuil-link{
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.6%; 
+    text-decoration-line: underline;
+    
+}
+
+.propos-link {
+    color: #FF6060;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
