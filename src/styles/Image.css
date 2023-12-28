@@ -6,7 +6,7 @@
     overflow: hidden;
   }
   
-  .Falaise {
+  .paysage {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -16,7 +16,7 @@
     color: #000000;
   }
   
-  .image-container p {
+  .caption {
     position: absolute;
     top: 35%;
     left: 50%;
@@ -29,3 +29,5 @@
     line-height: 142.6%;
     text-align: center; 
   }
+
+ 
