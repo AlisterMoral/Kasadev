@@ -4,6 +4,11 @@
     align-items: center;  
     margin-left: 350px;
     margin-top: 45px;
+}
+
+.logo-kasa {
+    width: 180px;
+    height: 60px;
     
 }
 
@@ -14,23 +19,43 @@
     cursor: pointer;
 }
 
-.acceuil-link{
+.acceuil-link, .propos-link {
     color: #FF6060;
     text-align: right;
     font-family: Montserrat;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 142.6%; 
+    text-decoration-line: none;
+}
+
+.acceuil-link:hover, .propos-link:hover {
     text-decoration-line: underline;
+    color: #FF6060; 
+}
+
+.nav-bar .active {
+    text-decoration-line: underline;
+    color: #FF6060; 
+}
+
+@media screen and  (max-width: 767.98px) {
+
+.kasa-banner {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.logo-kasa {
+    width: 145px;
+    height: 46px;
     
 }
 
-.propos-link {
-    color: #FF6060;
-    text-align: right;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
+.nav-bar{
+    gap: 26px;
+    margin-right: 15px;
 }
+
+}
+

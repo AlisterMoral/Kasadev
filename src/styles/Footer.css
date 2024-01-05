@@ -4,22 +4,40 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 66px 0 20px 0;
+  padding: 20px 0; 
   gap: 20px;
+  margin-top: auto; 
 }
 
 .kasa-footer img {
   width: 122px;
   height: 39px;
+  margin-top: 20px;
 }
 
 .footer-bar {
   margin-top: 10px; 
+  display: flex;
 }
 
 .footer-copy {
+  
   color: #FFF;
   text-align: center;
   font-size: 24px;
   font-weight: 500;
+}
+
+@media screen and  (max-width: 767.98px) {
+
+  .kasa-footer{
+    gap: 0px;
+    margin-top: auto; 
+  }
+  .footer-copy{
+    width: 133px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
 }

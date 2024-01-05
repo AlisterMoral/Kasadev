@@ -3,9 +3,10 @@ import Error from '../Conposant/Error'
 import Footer from '../Conposant/Footer';
 
 
+
 function NotFoundPage() {
     return (
-      <div className="">
+      <div className="not-found">
         <Header />
         <Error/>
         <Footer />

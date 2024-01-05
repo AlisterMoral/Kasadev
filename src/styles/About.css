@@ -1,5 +1,6 @@
 .About-page {
- display: flex;
- flex-direction: column;
- gap: 60px;
-}
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    min-height: 100vh; 
+  }
