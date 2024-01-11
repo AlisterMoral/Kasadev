@@ -36,3 +36,20 @@
   border-radius: 10px;
   object-fit: cover;
 }
+
+
+@media screen and  (max-width: 767.98px) { 
+  .location-container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    flex-wrap: nowrap;
+  }
+
+ .location-card{
+  margin: 25px;
+  height: 255px;
+  width: 335px;
+ }
+
+}

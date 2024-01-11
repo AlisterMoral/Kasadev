@@ -47,7 +47,6 @@
   display: flex;
   flex-wrap: wrap; 
   align-items: flex-end;
-  
   flex-direction: column;
 }
 
@@ -96,3 +95,85 @@
   color: #FF6060;
 }
 
+
+@media screen and  (max-width: 767.98px) {
+
+  
+  .intro-container-flex {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+    justify-content: center;
+    flex-direction: column;
+   
+  }
+
+  .rental-intro {
+    flex: 1;
+    margin-right: 0px;
+    
+  }
+
+  .tags-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .tag {
+    display: inline-block;
+    background-color: #FF6060;
+    color: white;
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .host-info-container {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    flex-direction: row-reverse;
+    
+  }
+  
+  .host-info {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .host-picture {
+    border-radius: 90px;
+    margin-right: 10px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+  
+  .host-info__name {
+    margin-right: 0px; 
+    color: #FF6060;
+    font-size: 18px;
+    width: 40%;
+  }
+  
+  .star-rating-container {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  .star-rating {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+  }
+  
+ 
+
+}
