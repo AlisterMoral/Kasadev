@@ -102,9 +102,10 @@
   .intro-container-flex {
     display: flex;
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: 30px;
     justify-content: center;
     flex-direction: column;
+    align-items: normal;
    
   }
 
@@ -127,9 +128,10 @@
     padding: 5px 15px;
     margin-top: 10px;
     margin-right: 5px;
-    border-radius: 15px;
+    border-radius: 10px;
     margin-bottom: 10px;
     font-size: 14px;
+    text-align: center;
   }
 
   .host-info-container {
@@ -137,6 +139,7 @@
     flex-wrap: wrap; 
     align-items: center;
     flex-direction: row-reverse;
+    justify-content: space-between;
     
   }
   
@@ -171,7 +174,7 @@
   .star-rating {
     display: flex;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 0px;
   }
   
  

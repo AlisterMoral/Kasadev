@@ -38,18 +38,27 @@
 }
 
 
+
+
 @media screen and  (max-width: 767.98px) { 
   .location-container{
     display: flex;
     flex-direction: column;
     width: auto;
     flex-wrap: nowrap;
+    align-items: center;
+    background: none;
   }
 
  .location-card{
-  margin: 25px;
+  margin: 10px;
   height: 255px;
-  width: 335px;
+  width: 90%;
  }
+ .location-card-link{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 }
