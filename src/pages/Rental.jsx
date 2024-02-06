@@ -7,11 +7,15 @@ import Tag from "../Conposant/Tag";
 import HostInfo from "../Conposant/Host";
 import StarRating from "../Conposant/StarRating";
 import Dropdown from "../Conposant/Dropdown"
-import { useParams } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom'; 
 
 const Rental = () => {
-const { propertyId } = useParams();
-const currentProperty = Logements.find(property => property.id === propertyId);
+  const { propertyId } = useParams();
+  const currentProperty = Logements.find(property => property.id === propertyId);
+
+  if (!currentProperty) {
+    return <Navigate to="/404" />; 
+  }
 
 return (
   <div className="Rental">
